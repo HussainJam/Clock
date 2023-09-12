@@ -1,10 +1,15 @@
 .Clock {
-    width: 95vw;
-    height: 95vh;
-    overflow: hidden;
+    border: 2px solid burlywood;
+    width: 250px;
+    margin: 0vh auto 0px auto;
+    border-radius: 15px;
+    /* padding: 10px 0; */
+    background-color: cornsilk;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
-.Clock h1 {
+.Apps {
     border: 2px solid burlywood;
     width: 250px;
     margin: 40vh auto 0px auto;
@@ -19,3 +24,15 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     color: sandybrown;
 }
+
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(57, 53, 50);
+    border: 2px solid burlywood;
+    width: 150px;
+    border-radius: 15px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
